@@ -44,11 +44,11 @@
     var st1 = setTimeout(() => {
       this.ifClose(true)
       clearTimeout(st1)
-    }, 100)
+    }, 200)
     var st2 = setTimeout(() => {
       this.ifClose(false)
       clearTimeout(st2)
-    }, 200)
+    }, 400)
   }
   
   // 随机获取第几个眨眼
